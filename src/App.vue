@@ -5,16 +5,22 @@
         AFW
       </p>
     </div>
+    <div class="boxCont">
+    <InfoBox>
+
+    </InfoBox>
+    </div>
 </template>
 
 <script>
 import NavBar from './components/NavBar.vue'
-
+import InfoBox from './components/InfoBox.vue'
 
 export default {
   name: 'App',
   components: {
-    NavBar
+    NavBar,
+    InfoBox
   }
 }
 </script>
@@ -31,6 +37,7 @@ html{
 body{
   min-height: 100%
 }
+
 .back p{
 font-family: 'Varela Round';font-size: 48em;
 -webkit-user-select: none; /* Safari */        
@@ -42,6 +49,7 @@ user-select: none; /* Standard */
   height: 100%;
   width: 100%;
   transform: rotate(25deg);
+  opacity: 0.8;
 
 }
 .back{
@@ -49,6 +57,14 @@ user-select: none; /* Standard */
   height: 90% ;
 overflow: hidden;
 }
+
+.boxCont{
+  width:100%;
+  height: 100%;
+  display:absolute;
+  justify-content: center;
+}
+
 
 
 

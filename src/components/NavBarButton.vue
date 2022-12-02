@@ -14,6 +14,6 @@ export default{
     .buttonStyle{
         width: 15%;
         height: 70%;
-        background-color: #05386B
+background-color: #05386B
     }
 </style>

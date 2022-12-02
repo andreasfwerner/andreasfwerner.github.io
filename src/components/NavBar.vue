@@ -38,7 +38,7 @@ export default{
         width: 100%;
         height: 7em;
         display: flex;
-        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;box-shadow: ;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         
 
     }
