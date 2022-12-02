@@ -1,3 +1,9 @@
+<!---
+#05386B
+#379683
+#5CDB95
+#8EE4AF
+#EDF5E1-->
 <template>
     <div class="navbar">
         <div class="filler">
@@ -31,14 +37,16 @@ export default{
     .navbar{
         width: 100%;
         height: 7em;
-        background-color: green;
         display: flex;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;box-shadow: ;
+        
 
     }
     .filler{
         width: 30%;
         height: 100%;
-        background-color: aqua;
+        background-color:#379683;
+
         display: flex;
         justify-content: center;
         align-items: center;
@@ -50,12 +58,14 @@ export default{
         align-items: center;
         width: 70%;
         height: 100%;
-        background-color: aliceblue;
+        background-color:#379683;
     }
     p{
-        font-size: large;
+        font-size: 1.5em;
         font-family: 'Courier New', Courier, monospace;
         font-weight: bold;
+        letter-spacing: .3rem;
+        color: #05386B;
     }
 
 </style>
